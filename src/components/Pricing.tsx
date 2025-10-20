@@ -60,17 +60,16 @@ export const Pricing = () => {
             Simple, Transparent Pricing
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Choose the plan that's right for you. All plans include a 14-day free trial.
+            Choose the plan that's right for you.
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
-            <Card 
+            <Card
               key={index}
-              className={`relative bg-card/50 backdrop-blur-sm border-border hover:shadow-card transition-all duration-300 animate-scale-in ${
-                plan.popular ? 'border-primary shadow-glow scale-105' : ''
-              }`}
+              className={`relative bg-card/50 backdrop-blur-sm border-border hover:shadow-card transition-all duration-300 animate-scale-in ${plan.popular ? 'border-primary shadow-glow scale-105' : ''
+                }`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {plan.popular && (
@@ -87,10 +86,9 @@ export const Pricing = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <Button 
-                  className={`w-full mb-6 ${
-                    plan.popular ? 'bg-gradient-primary hover:shadow-glow' : ''
-                  }`}
+                <Button
+                  className={`w-full mb-6 ${plan.popular ? 'bg-gradient-primary hover:shadow-glow' : ''
+                    }`}
                   variant={plan.popular ? 'default' : 'outline'}
                 >
                   {plan.cta}
