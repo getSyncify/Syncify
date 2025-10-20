@@ -38,7 +38,7 @@ For support, feature requests, or feedback, visit our website or contact us thro
 
 ## Links
 
-- Website: https://yourdomain.com
+- Website: https://getsyncify.com
 - Chrome Web Store: [Add link]
-- Documentation: https://yourdomain.com/docs
-- Contact: https://yourdomain.com#contact
+- Documentation: https://getsyncify.com/docs
+- Contact: https://getsyncify.com#contact
