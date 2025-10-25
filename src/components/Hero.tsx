@@ -48,17 +48,17 @@ export const Hero = () => {
         {/* Compatibility section */}
         <div className="flex flex-wrap items-center justify-center gap-6 mt-8">
           <div className="flex items-center gap-2">
-            <a title="Yar, Public domain, via Wikimedia Commons">
+            <a title="chatgpt">
               <img width="40" alt="ChatGPT Search logo – black square background with rounded corners – Accurately based on the website's favicon.ico" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/ChatGPT_Search_logo_Black_Square_-_rounded_corners.svg/256px-ChatGPT_Search_logo_Black_Square_-_rounded_corners.svg.png?20241228174050" />
             </a>
           </div>
           <div className="flex items-center gap-2">
-            <a title="SalimBinYousuf0, CC0, via Wikimedia Commons">
+            <a title="grok, xai">
               <img width="60" alt="xAI" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/XAI.png?20230713074949" />
             </a>
           </div>
           <div className="flex items-center gap-2">
-            <a title="DeepSeek, MIT <http://opensource.org/licenses/mit-license.php>, via Wikimedia Commons">
+            <a title="DeepSeek, MIT <http://opensource.org/licenses/mit-license.php>">
               <img width="50" alt="DeepSeek AI icon." src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/DeepSeek-icon.svg/512px-DeepSeek-icon.svg.png?20250630230357" />
             </a>
           </div>
