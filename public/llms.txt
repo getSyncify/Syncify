@@ -1,19 +1,21 @@
-# Syncify - Chrome Extension
+# aidash - Chrome Extension
 
 > Seamless Chrome Extension for Modern Browsing
 
 ## Overview
 
-Syncify is a powerful Chrome extension designed to enhance your browsing experience with seamless synchronization, productivity tools, and intelligent features.
+AiDash is a powerful Chrome extension designed to enhance your AI chat experience with intelligent organization, automation, and privacy protection.
 
 ## Key Features
 
-- **Seamless Synchronization**: Keep your browsing data synchronized across all devices
-- **Smart Bookmarks**: Organize and access your bookmarks intelligently
-- **Tab Management**: Efficiently manage and organize your browser tabs
-- **Privacy Focused**: Your data stays secure and private
-- **Lightweight**: Minimal resource usage for optimal performance
-- **Modern UI**: Clean and intuitive interface
+- **AI-Powered Organization**: Automatically summarize, tag, and organize all your AI conversations
+- **Workflow Automation**: Create custom workflows and automations to streamline your chat management
+- **Data Privacy Shield**: Keep your conversations safe from AI platform leaks with advanced privacy protection
+- **Multi-Platform Support**: Connect and manage all your AI platforms in one unified dashboard
+- **Smart Search & Folders**: Instantly find any conversation and organize with custom folders
+- **Notion Integration**: Easily export your chats and notes to Notion for seamless workflow
+- **Local-First Approach**: Your data stays on your device with complete privacy and control
+- **Intelligent Tagging**: Automatic categorization of conversations for easy retrieval
 
 ## Pricing
 
@@ -38,7 +40,7 @@ For support, feature requests, or feedback, visit our website or contact us thro
 
 ## Links
 
-- Website: https://getsyncify.com
+- Website: https://getaidash.com
 - Chrome Web Store: [Add link]
-- Documentation: https://getsyncify.com/docs
-- Contact: https://getsyncify.com#contact
+- Documentation: https://getaidash.com/docs
+- Contact: https://getaidash.com#contact
