@@ -1,10 +1,10 @@
 import logo from "@/assets/logo.png";
 import { Waitlist } from "./Waitlist";
-import { Chrome, Info } from "lucide-react";
+import { Chrome, Info, ChevronDown } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center px-4 bg-background">
+    <section className="relative min-h-screen flex items-center justify-center px-4 bg-background mt-16">
       <div className="max-w-4xl mx-auto text-center">
         {/* Logo with laser effect border */}
         <div className="relative inline-block mb-12">
@@ -68,6 +68,20 @@ export const Hero = () => {
           Fully compatible with leading AI assistants.
         </p>
       </div>
+
+      {/* Animated Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2">
+        <p className="text-sm text-muted-foreground mb-2 animate-pulse">
+          Discover more
+        </p>
+        <div className="relative">
+          <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 animate-pulse opacity-50"></div>
+          <div className="relative bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 rounded-full p-3 shadow-lg">
+            <ChevronDown className="w-6 h-6 text-white animate-bounce" />
+          </div>
+        </div>
+      </div>
+
       <Waitlist />
     </section>
   );
