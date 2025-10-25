@@ -160,7 +160,7 @@ Error generating stack: `+i.message+`
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', '${e}', {
-        page_title: 'AiDash - Chat Management Dashboard',
+        page_title: 'AiDash - AI-Powered Chat Management Dashboard',
         page_location: window.location.href,
         page_path: window.location.pathname
       });
